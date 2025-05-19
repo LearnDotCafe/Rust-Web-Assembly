@@ -14,11 +14,10 @@ This creates the `pkg/` directory containing the compiled WebAssembly and JavaSc
 
 ## Running
 
-Serve the `static/` directory with any static file server. For example:
+Start the webserver
 
 ```bash
-cd static
 python3 -m http.server 8000
 ```
 
-Then open <http://localhost:8000> in your browser.
+Then open <http://localhost:8000/static> in your browser.
